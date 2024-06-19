@@ -1,0 +1,47 @@
+/*card css**/
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 330px;
+  }
+  .card{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #0075FF;
+  }
+  
+  .edit_button{
+    color: #0075FF;
+    border: 1px solid #0075FF;
+    border-radius: 5px;
+    padding: 10px 23px;
+  }
+  .del_button{
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+  
+  .task_title_detail{
+    padding-left: 20px;
+  }
+  
+  .user_details{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .profile{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  .name{
+    font-weight: bolder;
+  }
+  .email{
+    color: grey;
+  }

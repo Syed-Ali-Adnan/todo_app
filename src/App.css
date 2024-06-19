@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading{
+  text-align: center;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.form_wraper{ 
+  background-color: rgb(201, 219, 247);
+  width: 500px;
+  height: 410px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.row1,
+.row3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+.row1 input,
+.row3 input,
+.row3 select
+{
+ width: 230px;
+ height: 30px;
+ text-align: center;
+ padding-bottom: 10px;
+ border: 1px solid grey;
+  border-radius: 5px;
+  color: grey;
+}
+.row2 input,
+.row4 textarea{
+  width: 480px;
+  height: 30px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  color: gray;
+}
+.row4 textarea{
+  width: 480px;
+  height: 100px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  color: grey;
+}
+
+.row2 label,
+.row4 label{
+  margin-left: 10px;
+  padding-bottom: 10px;
+  color: gray;
+}
+.row1 label,
+.row3 label{
+  padding-bottom: 10px;
+  color: gray;
+}
+.row5{
+  display: flex;
+  justify-content: end;
+}
+.add_task_button{
+  padding: 10px 15px;
+  margin:10px 10px;
+  background-color: #0075FF;
+  color: white;
+  border-radius: 8px;
+}
+.add_task_button:hover{
+  background-color: rgb(232, 238, 247);
+  padding: 10px 20px;
+}
+
